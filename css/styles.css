@@ -158,7 +158,7 @@ img {
 
 /**------section2--------*/
 .hero {
-  padding: 120px 0;
+  padding: 120px 0 120px;
 }
 .visually-hidden {
   position: absolute;
@@ -307,6 +307,7 @@ img {
 .main-but-btn:focus {
   color: var(--color-white);
   background-color: var(--color-pressed-state);
+  border: 1px solid var(--color-cornflower);
   border: 1px solid transparent;
   border: 1px solid transparent;
 }
@@ -335,7 +336,7 @@ img {
 .main-menu {
   display: flex;
   justify-content: center;
-  margin: 96px 427px 72px 427px;
+  margin-bottom: 72px;
   gap: 24px;
 }
 .main-but-btn {
@@ -355,4 +356,13 @@ img {
   margin: bottom 138px;
   margin-left: 156px;
   row-gap: 48px;
+}
+.hero-menu-img {
+  width: calc((100% - 48px) / 3);
+}
+.card-project {
+  max-width: 360px;
+  padding: 32px 16px;
+  border: 1px solid var(--color-cornflower);
+  border-top: none;
 }
