@@ -77,11 +77,11 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-grey);
   display: block;
-  padding: 24 px 0;
 }
 .header-menu {
   display: flex;
   gap: 40px;
+  padding: 24 px 0;
 }
 .header-navigation {
   display: flex;
@@ -161,6 +161,18 @@ img {
 .hero {
   padding: 120px 0;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .hero-list {
   display: flex;
   gap: 24px;
@@ -182,18 +194,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+
 /**------section 3-------*/
 .tecnic {
   padding-bottom: 120px;
@@ -233,7 +234,9 @@ img {
   text-align: center;
   height: 380px;
 }
-
+.people-box {
+  padding: 32px 16px;
+}
 .people-name {
   font-weight: 500;
   font-size: 20px;
