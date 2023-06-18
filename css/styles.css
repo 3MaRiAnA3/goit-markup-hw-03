@@ -157,7 +157,7 @@ img {
 }
 
 /**------section2--------*/
-.hero {
+.hero-hero {
   padding: 120px 0 120px;
 }
 .visually-hidden {
@@ -342,9 +342,6 @@ img {
   border-radius: 4px;
   border: none;
   border: 1px solid var(--color-cornflower);
-}
-.one-btn {
-  color: #ffffff;
 }
 .hero-menu {
   display: flex;
